@@ -9,6 +9,6 @@ import (
 type Config struct {
 	ConsulToken        string
 	CommandLine        []string
-	Definition         *api.AgentServiceRegistration
+	Definition         []*api.AgentServiceRegistration
 	SelfCheckFrequency time.Duration
 }
